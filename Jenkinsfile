@@ -8,7 +8,7 @@ pipeline{
 				container('python'){ sh "python --version"}
 			}
 		}
-		stage( 'python print help’ ){
+		stage( 'python print help' ){
 			steps{
 				container('python'){ sh 'python --help'}
 			}
