@@ -10,7 +10,7 @@ pipeline{
 		}
 		stage( 'python print help’ ){
 			steps{
-				container('python'){ sh 'python --help}
+				container('python'){ sh 'python --help'}
 			}
 		}
 	}
